@@ -22,5 +22,19 @@
   },
   "backend": {
     "imageid": "ubuntu"
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "plan.TapPlan",
+        "target": "/"
+      }
+    ],
+    "host01": [
+      {
+        "file": "plan2.TapPlan",
+        "target": "/"
+      }
+    ]
   }
 }
