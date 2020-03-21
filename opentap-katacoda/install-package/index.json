@@ -1,29 +1,14 @@
 {
-  "title": "Test",
-  "description": "test desc2",
+  "title": "Install an OpenTAP Package",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Install an OpenTAP Package",
+        "text": "install.md"
       }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    },
-    "assets": {
-      "client": [
-        {
-          "file": "plan.TapPlan",
-          "target": "/"
-        }
-      ]
-    }
+    ]
   },
   "environment": {
     "uilayout": "terminal"
