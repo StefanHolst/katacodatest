@@ -15,27 +15,27 @@
     {
       "course_id": "running-testplan",
       "title": "Running a Test Plan",
-      "description": ""
+      "description": "Learn how to run a test plan in OpenTAP."
     },
     {
       "course_id": "create-testplan",
       "title": "Creating a Test Plan",
-      "description": ""
+      "description": "Learn how to create a test plan."
     },
     {
       "course_id": "create-plugin",
       "title": "Create an OpenTAP Plugin",
-      "description": ""
+      "description": "Learn how to create your own plugin for OpenTAP."
     },
     {
       "course_id": "create-package",
       "title": "Create an OpenTAP Package",
-      "description": ""
+      "description": "Learn how to combine all your plugins into an OpenTAP package."
     },
     {
       "course_id": "publish-package",
       "title": "Publish an OpenTAP Package",
-      "description": ""
+      "description": "Learn how to publish your OpenTAP package to http://packages.opentap.io."
     }
   ]
 }
