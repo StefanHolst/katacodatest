@@ -14,7 +14,7 @@
       "client": [
         {
           "file": "plan.TapPlan",
-          "target": "/"
+          "target": "~/"
         }
       ]
     }
