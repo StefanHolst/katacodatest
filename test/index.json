@@ -27,13 +27,13 @@
     "client": [
       {
         "file": "plan.TapPlan",
-        "target": "/"
+        "target": "~/"
       }
     ],
     "host01": [
       {
         "file": "plan2.TapPlan",
-        "target": "/"
+        "target": "~/"
       }
     ]
   }
