@@ -1,0 +1,11 @@
+{
+  "title": "Something",
+  "description": "else",
+  "courses": [
+    {
+      "course_id": "test",
+      "title": "Test",
+      "description": "test desc2"
+    }
+  ]
+}
