@@ -15,6 +15,20 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "plan.TapPlan",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "plan2.TapPlan",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
@@ -22,19 +36,5 @@
   },
   "backend": {
     "imageid": "ubuntu"
-  },
-  "assets": {
-    "client": [
-      {
-        "file": "plan.TapPlan",
-        "target": "~/"
-      }
-    ],
-    "host01": [
-      {
-        "file": "plan2.TapPlan",
-        "target": "~/"
-      }
-    ]
   }
 }
