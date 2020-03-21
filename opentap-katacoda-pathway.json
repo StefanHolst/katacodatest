@@ -1,16 +1,16 @@
 {
   "title": "Learn OpenTAP",
-  "description": "OpenTAP is an Open Source project for fast and easy development and execution of automated tests.\nOpenTAP is built with simplicity, scalability and speed in mind, and is based on an extendable architecture that leverages .NET Core.\nOpenTAP offers a range of sequencing functionality and infrastructure that makes it possible for you to quickly develop plugins tailored for your automation needs – plugins that can be shared with the OpenTAP community through the OpenTAP package repository.",
+  "description": "Learn how to use OpenTAP.",
   "courses": [
     {
       "course_id": "install",
       "title": "Install OpenTAP",
-      "description": ""
+      "description": "Learn how to install OpenTAP."
     },
     {
       "course_id": "install-package",
       "title": "Install an OpenTAP Package",
-      "description": ""
+      "description": "Learn how to install OpenTAP packages."
     },
     {
       "course_id": "running-testplan",
