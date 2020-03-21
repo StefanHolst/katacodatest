@@ -1,15 +1,25 @@
-Pull image `docker pull opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+# Install Dependencies
 
-Run the image `docker run -it opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+On Linux, OpenTAP has a few dependencies that must be manually installed, namely libc6, libunwind, unzip, and git. On Debian derivatives, these can be installed by running the following command:
 
-Test OpenTAP `tap`{{execute}}
+`apt install libc6-dev, libunwind8, unzip, git`{{execute}}
 
-List installed OpenTAP packages `tap package list --installed`{{execute}}
+Note that the packages may have different names on other distributions. OpenTAP should still work if you install the equivalent packages for your distribution.
 
-Install a package `tap package install TUI --version any`{{execute}}
 
-Try the TUI `tap tui`{{execute}}
+# Install OpenTAP
 
-Try creating a test plan.
+Download the OpenTAP distribution (.tar) from our homepage https://www.opentap.io/download.html.
 
-Run the test plan `tap run plan.TapPlan`{{execute}}
+`wget https://www.opentap.io/docs/OpenTAP.9.6.4+6f53deb9.tar`{{execute}}
+
+Install the downloaded distribution:
+
+Untar the package in you home directory:
+`tar -xf OpenTAP*.tar`{{execute}}
+
+Change the permission of the INSTALL.sh file to be executable: 
+`chmod u+x INSTALL.sh`{{execute}}
+
+Run the INSTALL.sh script: ./INSTALL.sh.
+`./INSTALL.sh`{{execute}}
