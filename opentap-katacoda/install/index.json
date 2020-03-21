@@ -1,13 +1,17 @@
 {
-  "title": "Test",
+  "title": "Install OpenTAP",
   "description": "test desc2",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Install Dotnet Core",
+        "text": "dotnet.md"
+      },
+      {
+        "title": "Install OpenTAP",
+        "text": "opentap.md"
       }
     ],
     "intro": {
@@ -20,12 +24,6 @@
       "client": [
         {
           "file": "plan.TapPlan",
-          "target": "/"
-        }
-      ],
-      "host01": [
-        {
-          "file": "plan2.TapPlan",
           "target": "/"
         }
       ]
