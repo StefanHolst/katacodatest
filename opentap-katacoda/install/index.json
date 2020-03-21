@@ -6,7 +6,7 @@
     "steps": [
       {
         "title": "Install OpenTAP",
-        "text": "opentap.md"
+        "text": "install.md"
       },
       {
         "title": "Run OpenTAP with Docker",
@@ -14,10 +14,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
     },
     "finish": {
-      "text": "finish.md"
     },
     "assets": {
       "client": [
@@ -32,6 +30,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
