@@ -1,15 +1,28 @@
-Pull image `docker pull opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+Pull the OpenTAP docker image:
 
-Run the image `docker run -it opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+`docker pull opentapio/opentap:9.6-ubuntu18.04`{{execute}}
 
-Test OpenTAP `tap`{{execute}}
 
-List installed OpenTAP packages `tap package list --installed`{{execute}}
+Run a docker container in interactive move (-i):
 
-Install a package `tap package install TUI --version any`{{execute}}
+`docker run -it opentapio/opentap:9.6-ubuntu18.04`{{execute}}
 
-Try the TUI `tap tui`{{execute}}
 
-Try creating a test plan.
+Try running OpenTAP:
 
-Run the test plan `tap run plan.TapPlan`{{execute}}
+`tap`{{execute}}
+
+
+List installed OpenTAP packages:
+
+`tap package list --installed`{{execute}}
+
+
+Take a look at the test plan:
+
+`cat plan.TapPlan`{{execute}}
+
+
+Run the tap plan:
+
+`tap run plan.TapPlan`{{execute}}
