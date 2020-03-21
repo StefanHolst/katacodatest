@@ -1,15 +1,25 @@
-Pull image `docker pull opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+# Install OpenTAP
 
-Run the image `docker run -it opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+Download the OpenTAP distribution (.tar) from our homepage https://www.opentap.io/download.html.
 
-Test OpenTAP `tap`{{execute}}
+`wget https://www.opentap.io/docs/OpenTAP.9.6.4+6f53deb9.tar`{{execute}}
 
-List installed OpenTAP packages `tap package list --installed`{{execute}}
 
-Install a package `tap package install TUI --version any`{{execute}}
+Untar the package in you home directory:
 
-Try the TUI `tap tui`{{execute}}
+`tar -xf OpenTAP*.tar`{{execute}}
 
-Try creating a test plan.
 
-Run the test plan `tap run plan.TapPlan`{{execute}}
+Change the permission of the INSTALL.sh file to be executable: 
+
+`chmod u+x INSTALL.sh`{{execute}}
+
+
+Run the INSTALL.sh script:
+
+`./INSTALL.sh`{{execute}}
+
+
+Add OpenTAP to PATH:
+
+`PATH=$PATH:$(pwd)/.tap`{{execute}}

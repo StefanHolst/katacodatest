@@ -5,10 +5,6 @@
   "details": {
     "steps": [
       {
-        "title": "Install Dotnet Core",
-        "text": "dotnet.md"
-      },
-      {
         "title": "Install OpenTAP",
         "text": "opentap.md"
       }
