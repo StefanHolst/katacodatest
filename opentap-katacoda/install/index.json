@@ -7,6 +7,10 @@
       {
         "title": "Install OpenTAP",
         "text": "opentap.md"
+      },
+      {
+        "title": "Run OpenTAP with Docker",
+        "text": "docker.md"
       }
     ],
     "intro": {
@@ -28,6 +32,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "docker"
   }
 }

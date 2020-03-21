@@ -1,5 +1,3 @@
-# Install OpenTAP
-
 Download the OpenTAP distribution (.tar) from our homepage https://www.opentap.io/download.html.
 
 `wget https://www.opentap.io/docs/OpenTAP.9.6.4+6f53deb9.tar`{{execute}}
@@ -15,7 +13,7 @@ Change the permission of the INSTALL.sh file to be executable:
 `chmod u+x INSTALL.sh`{{execute}}
 
 
-Run the INSTALL.sh script:
+Run the INSTALL.sh script (remember to answer y):
 
 `./INSTALL.sh`{{execute}}
 
@@ -23,3 +21,7 @@ Run the INSTALL.sh script:
 Add OpenTAP to PATH:
 
 `PATH=$PATH:$(pwd)/.tap`{{execute}}
+
+
+Try running OpenTAP:
+`tap`{{execute}}
