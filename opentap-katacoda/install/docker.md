@@ -5,7 +5,7 @@ Pull the OpenTAP docker image:
 
 Run a docker container in interactive move (-i):
 
-`docker run -it opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+`docker run -it -v $(pwd):/home -w /home opentapio/opentap:9.6-ubuntu18.04`{{execute}}
 
 
 Try running OpenTAP:
