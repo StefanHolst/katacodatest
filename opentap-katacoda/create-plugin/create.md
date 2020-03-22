@@ -4,12 +4,21 @@ Start OpenTAP `docker run -it -v $(pwd):/home -w /home opentapio/opentap:9.6-ubu
 
 Test OpenTAP `tap`{{execute}}
 
-List installed OpenTAP packages `tap package list --installed`{{execute}}
+Install the SDK package `tap package install SDK`{{execute}}
 
-Install a package `tap package install TUI --version any`{{execute}}
+`tap sdk new project MyPlugin`{{execute}}
 
-Try the TUI `tap tui`{{execute}}
 
-Try creating a test plan.
+Open MyFirstTestStep.cs in the IDE:
+`MyFirstTestStep.cs`{{open HOST1}}
 
-Run the test plan `tap run plan.TapPlan`{{execute}}
+
+Add `Log.Info("Hello");` in any of the methods.
+
+`dotnet build`{{execute}}
+
+`bin/Debug/tap run MyFirstTestPlan.TapPlan`{{execute}}
+
+Concrats you have created your first teststep plugin.
+
+Side note. To create a OpenTAP Package. Run `dotnet build -c Release`{{execute}}
