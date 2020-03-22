@@ -13,11 +13,6 @@ Try running OpenTAP:
 `tap`{{execute}}
 
 
-List installed OpenTAP packages:
-
-`tap package list --installed`{{execute}}
-
-
 Take a look at the test plan:
 
 `cat plan.TapPlan`{{execute}}

@@ -1,13 +1,12 @@
 {
-  "title": "Test",
-  "description": "test desc2",
+  "title": "Running a Test Plan",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Running a Test Plan",
+        "text": "run.md"
       }
     ],
     "assets": {
@@ -23,6 +22,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
