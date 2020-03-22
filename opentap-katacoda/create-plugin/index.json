@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "code": "background.sh",
+        "courseData": "background.sh",
         "text": "create.md"
       }
     ],
