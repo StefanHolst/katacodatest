@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker pull opentapio/opentap:9.6-ubuntu18.04
+docker pull opentapio/opentap:rc-slim-ubuntu18.04

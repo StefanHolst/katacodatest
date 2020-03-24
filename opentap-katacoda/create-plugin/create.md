@@ -1,6 +1,6 @@
-Pull image `docker pull opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+Pull image `docker pull opentapio/opentap:rc-slim-ubuntu18.04`{{execute}}
 
-Start OpenTAP `docker run -it -v $(pwd):/home -w /home opentapio/opentap:9.6-ubuntu18.04`{{execute}}
+Start OpenTAP `docker run -it -v $(pwd):/home -w /home opentapio/opentap:rc-slim-ubuntu18.04`{{execute}}
 
 Test OpenTAP `tap`{{execute}}
 
