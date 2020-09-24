@@ -1,6 +1,6 @@
 Download the OpenTAP distribution (.tar) from our homepage https://www.opentap.io/download.html.
 
-`wget https://www.opentap.io/docs/OpenTAP.9.6.4+6f53deb9.tar`{{execute}}
+`wget https://www.opentap.io/docs/OpenTAP.9.9.2+e9c70141.tar`{{execute}}
 
 
 Untar the package in you home directory:
